@@ -2,40 +2,40 @@ package com.nttdata;
 
 public class Person {
 
-	private String firstname;
+	private String nombre;
 	
-	private String lastname;
+	private String apellido;
 	
-	private Integer age;
+	private Integer edad;
 
-	public Person(String firstname, String lastname, Integer age) {
-		this.firstname = firstname;
-		this.lastname = lastname;
-		this.age = age;
+	public Person(String nombre, String apellido, Integer edad) {
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.edad = edad;
 	}
 
-	public String getFirstname() {
-		return firstname;
+	public String getNombre() {
+		return nombre;
 	}
 
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
-	public String getLastname() {
-		return lastname;
+	public String getApellido() {
+		return apellido;
 	}
 
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
 
-	public Integer getAge() {
-		return age;
+	public Integer getEdad() {
+		return edad;
 	}
 
-	public void setAge(Integer age) {
-		this.age = age;
+	public void setApellido(Integer edad) {
+		this.edad = edad;
 	}
 	
 }
